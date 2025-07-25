@@ -46,7 +46,7 @@ export const UI = () => {
   const keyDown = (e) => {
     if(e.key === 'Enter'){
       console.log("Hello")
-      handleSubmit()
+      handleSubmit(e)
     }
   }
 
