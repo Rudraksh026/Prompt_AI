@@ -43,6 +43,12 @@ export const UI = () => {
     } catch (error) {}
   };
 
+  const keyDown = (e) => {
+    if(e.key === 'Enter'){
+      handleSubmit()
+    }
+  }
+
   return (
     <>
       <div className="container">
@@ -52,6 +58,7 @@ export const UI = () => {
             id="promptInput"
             placeholder="Type your prompt here..."
             onChange={handleChange}
+            onKeyDown={keyDown}
             value={prompt}
             required
           ></textarea>
