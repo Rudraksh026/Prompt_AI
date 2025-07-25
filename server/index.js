@@ -20,7 +20,6 @@ app.post('/', async (req, res) => {
         contents:prompt,
     })
     res.json(response.text)
-    
   } catch (error) {
    
   }

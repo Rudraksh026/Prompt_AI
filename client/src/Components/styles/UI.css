@@ -63,6 +63,34 @@ button {
 button:hover {
   background-color: #4338ca;
 }
+
+.ai-response {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    pre {
+      background: #1e293b;
+      color: #f1f5f9;
+      padding: 10px;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    code {
+      font-family: 'Fira Code', monospace;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #0f172a;
+    }
+    li {
+      margin-left: 20px;
+    }
+
 #responseBox {
   margin-top: 2rem;
   padding: 1rem;
